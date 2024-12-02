@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{ 
+    font-family: "Inter", sans-serif;
+   padding:0px;
+   margin: 0px;
+
+}
+
+.usher-bcg{
+    background-color: blue;
+    width: 100%;
+    height: 3000px;
+}
+
+.navig{
+    display: flex;
+    width: 93%;
+    height: 50px;
+    border: 1px solid black;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.nav{
+    border: 1px solid green ;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+.navig button{
+    height: 50px;
+    width: 140px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+}
+.new{
+    border: 1px solid yellowgreen;
+    height: 700px;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.new h1{
+    font-size: 120px;
+    line-height: 100px;
+    width: 850px;
+    border: 1px solid red;
+}
+#alone{
+    width: 730px;
+    margin-top: 90px;
+    font-size: 24px;
+    font-weight: 500;
+    border: 1px solid blueviolet;
+}
+.new button{
+    width: 200px;
+    height: 50px;
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.stats{
+    border: 1px solid green;
+    width: 600px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    align-items: center;
+}
+.stats h2{
+    color: #545454;
+    font-size: 50px;
+}
+.stats p{
+    color: #545454;
+}
+.Image-one{
+    margin-left: 960px;
+    margin-top: -699px;
+    position: absolute;
+    border: 1px solid red;
+    height: 380px;
+    width: 510px;
+}
+.space{
+    border: 3px solid black;
+    width: 130px;
+    height: 110px;
+    margin-left: 790px;
+    margin-top: -330px;
+}
+.Image-two{
+    margin-left: 820px;
+    margin-top: -90px;
+    /* position: absolute; */
+    border: 1px solid red;
+    height: 300px;
+    width: 510px;
+    z-index: 80;
+    position: relative;
+}
+.arrow{
+    border: 1px solid black;
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    align-content: center;
+    display: grid;
+    justify-content: center;
+    margin-left: 1280px;
+    margin-top: -126px;
+    z-index: 100;
+    position: relative;
+}
+.services{
+    border: 1px solid black;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    height: 380px;
+}
+.services-sub{
+    display: flex;
+    border: 1px solid red;
+    width: 450px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.Image-four{
+    width: 100px;
+    height: 4px;
+}
+.services-sub h3{
+    font-size: 50px;
+    font-weight: 600;
+
+}
